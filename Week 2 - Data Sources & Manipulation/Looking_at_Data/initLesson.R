@@ -7,8 +7,8 @@
 
 # Path to data
 .datapath <- file.path(.get_course_path(),
-                      ‘Week 2 - Data Sources & Manipulation', 'Looking_at_Data',
-                      'plant-data.txt')
+                      "Week 2 - Data Sources & Manipulation', 'Looking_at_Data",
+                      "plant-data.txt")
 # Read in data
 plants <- read.csv(.datapath, strip.white=TRUE, na.strings="")
 
